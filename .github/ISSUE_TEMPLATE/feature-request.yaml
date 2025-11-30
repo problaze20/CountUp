@@ -1,0 +1,38 @@
+name: "Feature Request"
+description: Suggest a new feature or improvement for CountUp.
+title: "[Feature]: "
+labels: ["enhancement"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to suggest a new feature for CountUp!
+        Please fill in the details below so we can understand your request.
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+      description: What is the feature you would like to see?
+      placeholder: Describe the feature clearly…
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Why Is This Useful?
+      description: How would this feature improve the app or solve a problem?
+      placeholder: Explain the benefits…
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Possible Implementation Ideas
+      description: (Optional) Any suggestions on how this feature could work.
+      placeholder: Example: Add a new menu item, button, or timer option.
+    validations:
+      required: false
