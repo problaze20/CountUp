@@ -11,5 +11,6 @@ A Lightweight, And Minimal Menubar Stopwatch App
 - [x] Simple, and Minimal
 - [x] Pause, Start, And Reset Stopwatch.
 
-Thats It. [Request Feature](rq)
+Thats It. [Request Feature](https://github.com/problaze20/CountUp/issues/new?template=feature-request.yaml
+)
 
