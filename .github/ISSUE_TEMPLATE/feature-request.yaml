@@ -6,7 +6,7 @@ labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
-      value: |
+      value: >
         Thank you for taking the time to suggest a new feature for CountUp!
         Please fill in the details below so we can understand your request.
 
@@ -33,6 +33,15 @@ body:
     attributes:
       label: Possible Implementation Ideas
       description: (Optional) Any suggestions on how this feature could work.
-      placeholder: Example: Add a new menu item, button, or timer option.
+      placeholder: |
+        Example: Add a new menu item, button, or timer option.
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional Information
+      description: Anything else we should know?
     validations:
       required: false
