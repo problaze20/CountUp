@@ -26,6 +26,7 @@ body:
       description: Which version of CountUp are you using?
       options:
         - 1.0
+        - 2.0
       default: 0
     validations:
       required: true
