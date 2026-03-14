@@ -1,29 +1,13 @@
 # CountUp
-![Requirements](https://img.shields.io/badge/MacOS-13.0%2B-deepskyblue?style=flat-square)
-![Stars](https://img.shields.io/github/stars/problaze20/CountUp?style=flat-square)
-![Issues](https://img.shields.io/github/issues/problaze20/CountUp?style=flat-square)
 
-<img width="638" height="336" alt="CountUp Screenshot" src="https://github.com/user-attachments/assets/d80bc380-834a-4fd0-ab93-dc355208465a" />
+> **Minimal** MenuBar Stopwatch
 
-A **Lightweight** and **Minimal** Menu Bar Stopwatch App <br>
-**Requirements**: MacOS `13.0` (Ventura) Or **Above**
+![Latest Commit](https://img.shields.io/github/last-commit/problaze20/CountUp?display_timestamp=committer&style=for-the-badge)
+![Latest GitHub Release](https://img.shields.io/github/v/release/problaze20/CountUp?sort=date&display_name=release&style=for-the-badge)
 
-> [!NOTE]
-> CountUp isn’t **notarized** yet — but don’t worry, it’s completely safe to use.
-
-[Download Latest](https://github.com/problaze20/CountUp/releases/latest)
-
-## Features
-- [x] Simple and Minimal
-- [x] Start, Pause, and Reset Stopwatch
-- [x] Global Keyboard Shortcuts
-
-### Keyboard Shortcuts
-`Option + Shift + Space` : **Pause** / **Resume** / **Start** <br>
-`Option + Shift + Backspace` : **Reset**
+I created this because I wanted a stopwatch app that lives in the menu bar. Many existing apps were closed-source, paid, non-minimal, or no longer maintained.
 
 
-Thats It. [Request Feature](https://github.com/problaze20/CountUp/issues/new?template=feature-request.yaml)
-## Roadmap
-- [x] #2 [Optimize timer resource usage when paused or stopped](https://github.com/problaze20/CountUp/issues/2)
-- [x] #1 [Timer does not persist state on app restart](https://github.com/problaze20/CountUp/issues/1)
+
+> [!WARNING]
+> This app is **not signed or notarized.** macOS may show a warning the first time you open it.
